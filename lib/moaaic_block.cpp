@@ -1,4 +1,4 @@
-#include<block.h>
+#include<mosaic_block.h>
 
 int main (int argc, char *argv[]) {
     std::cout << "hello\n";

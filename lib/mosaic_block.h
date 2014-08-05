@@ -3,3 +3,10 @@
 
 using namespace cv;
 using namespace std;
+
+class MosaicBlock {
+    private :
+
+    public:
+
+};
