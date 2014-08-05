@@ -1,3 +1,3 @@
 #!/usr/local/bin/zsh
-g++ -I../include ../lib/block.cpp 
-./a.out
+g++ `pkg-config --cflags opencv` `pkg-config --libs opencv` -I./include ./lib/mosaic_block.cpp 
+./a.out ./image/test.jpg
