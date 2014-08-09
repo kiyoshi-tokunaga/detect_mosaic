@@ -1,19 +1,18 @@
-#ifndef _INC_MOSAIC_BLOCK
-#define _INC_MOSAIC_BLOCK
+#ifndef _INC_IMAGEIO
+#define _INC_IMAGEIO
 
-#include<iostream>
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
 
 using namespace cv;
 using namespace std;
 
-class MosaicBlock {
+class ImageIO {
     private :
         Mat image;
 
     public:
-        MosaicBlock();
+        ImageIO();
         int read_image(char *filename);
         int display_image(int wait_time = 0);
 };
