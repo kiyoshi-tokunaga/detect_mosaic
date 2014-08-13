@@ -1,4 +1,4 @@
 #!/usr/local/bin/zsh
 make
-./main ./image/test.jpg
+./main ./image/018.jpg
 rm *.o main
