@@ -24,8 +24,10 @@ struct Block {
     int BGR[3];
     int size;
     int intensity;
+    int rigion_num_debug;
     CvPoint left_top;
     CvPoint right_bottom;
+    CvPoint gravity;
 };
 
 class Mosaic {
