@@ -1,3 +1,5 @@
 opencv/*
 image/*
+main
 *.swp
+*.o
